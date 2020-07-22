@@ -1,0 +1,10 @@
+list1=[]
+num=4
+print("Input:")
+for i in range(num):
+        data=int(input())
+        list1.append(data)
+print("List1= ",list1)
+for x in list1:
+        if x>0:
+                print(x)
